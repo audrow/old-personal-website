@@ -10,16 +10,6 @@
 		<meta name="title" content="Audrow Nash">
 		<meta name="description" content="Homepage of Audrow Nash">
 		<meta id="meta-tag-description" property="og:description" content="Homepage of Audrow Nash">
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-92893414-1', 'auto');
-			ga('send', 'pageview');
-		</script>
 	</head>
 
 	<body>
@@ -34,36 +24,45 @@
 
 					<br><br>
 					<a href="mailto:audrow@umich.edu">Contact</a> <br>
-					<a href="./files/CV_Audrow_Nash.pdf" rel="nofollow" target="_blank">CV</a> <br>
-					<a href="http://robohub.org/archives/authors/audrow-nash/"rel="nofollow" target="_blank">Interviews</a> <br>
+					<a href="./files/CV_Audrow_Nash.pdf" target="_blank">CV</a> <br>
+					<a href="http://robohub.org/archives/authors/audrow-nash/" target="_blank">Interviews</a> <br>
 				</p>
 			</td></tr></table>
 			<h2>About</h2>
 				<p>
-					I am an <a href="https://www.nsfgrfp.org">NSF Fellow</a> and a Master's student in Electrical Engineering and Computer Science at the University of Michigan. I am part of Dr. David Remy's <a href="http://ram-lab.engin.umich.edu">Robotics and Motion Laboratory</a>, which develops legged robots and assistive robotic devices such as active prostheses and exoskeletons. Also, I am the president of and an interviewer for the robotics news organization <a href="http://www.robotspodcast.com">Robots Podcast</a>.
+					I am an <a href="https://www.nsfgrfp.org">NSF Fellow</a> and a Master's student in Electrical Engineering and Computer Science at the University of Michigan. I am part of Dr. David Remy's <a href="http://ram-lab.engin.umich.edu">Robotics and Motion Laboratory (RAM-Lab)</a>, which develops legged robots and assistive robotic devices such as active prostheses and exoskeletons. Also, I am the president of and an interviewer for the robotics news organization <a href="http://www.robotspodcast.com">Robots Podcast</a>.
 				</p> 
 
-			<h2>Select Awards</h2>
-				<ul>
-					<li>National Science Foundation (NSF) Graduate Fellowship, 2016 (<a href="http://www.eecs.umich.edu/eecs/about/articles/2016/NSF-Fellowship-Nash.html" rel="nofollow" target="_blank">article</a>)</li>
-					<li>Charlotte Research Scholars Research Scholarship, 2013</li>
-				</ul>
-
-			<h2>Select Interviews</h2>
-				<ul>
-					<li> 
-						<a href="http://robohub.org/human-2-0-exoskeletons-and-orthoses/" rel="nofollow" target="_blank">
-						Human 2.0: Exoskeletons and Orthoses, with Hugh Herr
-						</a> </li>
-					<li>
-						<a href="http://robohub.org/self-driving-cars-from-research-to-road/" rel="nofollow" target="_blank">
-						Self-driving Cars: From Research to Road, with Karl Iagnemma
-						</a> </li>
-					<li>
-						<a href="http://robohub.org/forget-singularity-lets-talk-multiplicity-ken-goldberg-on-ai-at-the-wef/" rel="nofollow" target="_blank">
-						Forget Singularity, let's talk Multiplicity: Ken Goldberg at the WEF
-						</a> </li>
-				</ul> 
+			<h2>What I've Been Working On</h2>
+				<h4>Research</h4>
+					<ul>
+						<li>
+							<b>A fast 2D rigid-body simulator</b><br>
+							<i>I have been building from scratch a general 2D physics simulator for the RAM-Lab. This simulator is used to simulate the RAM-Lab's walking robots, such as <a href="http://ram-lab.engin.umich.edu/ramone.html" target="_blank">RAMone</a>. We chose to build our own simulator rather than using an open-source or commercial simulator because we could design the simulator to be problem specific and thus faster, as well as to have greater control over the assumptions made when designing the simulator. Features include </i>
+							<ul>
+								<li> Collisions and constraints use complementarity-type conditions </li>
+								<li> Generate equations of motions source code from Matlab</li>
+								<li> Written in C++, callable from Matlab as MEX file </li>
+							</ul>
+							<!-- <br> -->
+							<!-- <a href="./project_pages/2d_sim.html">Click for more information</a><br> -->
+						</li>
+						<!-- <li> -->
+						<!-- 	<b>Real-time template matching using a 32-bit Microcontroller</b><br> -->
+						<!-- 	<i>While with the APRIL lab, I extended Professor Edwin Olson's method for matching laser scans, called "scan matching," to images. In this work, I used a Lepton FLIR thermal camera and a 32-bit ARM microcontroller to create a small, inexpensive, and low-power system for person detection. This method could also be used for object and landmark detection. The APRIL Lab plans to use this work on unmanned aerial vehicles for localization as well as for person detection on ground robots and autonomous vehicles.</i><br> -->
+						<!-- 	<br> -->
+						<!-- 	<a href="./files/real-time_matching.pdf">Poster presentation</a><br> -->
+						<!-- </li> -->
+						<!-- <li> -->
+						<!-- 	<b>Establishing quadrotor formations using onboard sensing and computation</b><br> -->
+						<!-- 	<i>While an undergraduate at UNC Charlotte, my advisor Dr. Conrad and I decided that I would begin a new vein of research for the university on unmanned aerial vehicles (UAV). The goal was to fly many UAVs, called quadrotors, in a formation. The challenge was to do so without using any external system, such as a motion capture system. This research was important because, if we can coordinate multiple UAVs outside of a lab environment, many applications become possible such as large-area surveillance, carrying large items, and deployable wireless sensor networks. From this work, I have two publications.</i> -->
+						<!-- </li> -->
+					</ul>
+				<h4>Personal projects</h4>
+					<ul>
+						<li><b>Janus</b>: Software to take and analyze personal data for efficiency and well-being (since Spring 2015)</li>
+						<!-- <li><b>Sortastitious Longboards</b>: Made longboards (cruising skateboards) from scratch and embedded electronics in them (IMU, hall effect sensor, etc.). </li> -->
+					</ul>
 
 			<h2>Publications</h2>
 				<ul>
@@ -71,11 +70,33 @@
 					<li>Nash, A., Engel, C., Conrad, J. Towards Establishing and Maintaining Autonomous Quadrotor Formations, 2014.</li>
 				</ul>
 
+			<h2>Select Robots Podcast Interviews</h2>
+				<ul>
+					<li> 
+						<a href="http://robohub.org/human-2-0-exoskeletons-and-orthoses/" target="_blank">
+						Human 2.0: Exoskeletons and Orthoses, with Hugh Herr
+						</a> </li>
+					<li>
+						<a href="http://robohub.org/self-driving-cars-from-research-to-road/" target="_blank">
+						Self-driving Cars: From Research to Road, with Karl Iagnemma
+						</a> </li>
+					<li>
+						<a href="http://robohub.org/forget-singularity-lets-talk-multiplicity-ken-goldberg-on-ai-at-the-wef/" target="_blank">
+						Forget Singularity, let's talk Multiplicity: Ken Goldberg at the WEF
+						</a> </li>
+				</ul> 
+
+			<h2>Select Awards</h2>
+				<ul>
+					<li>National Science Foundation (NSF) Graduate Fellowship, 2016 (<a href="http://www.eecs.umich.edu/eecs/about/articles/2016/NSF-Fellowship-Nash.html" target="_blank">article</a>)</li>
+					<li>Charlotte Research Scholars Research Scholarship, 2013</li>
+				</ul>
+
 			<br>
 			<br>
 			<div id="footer">
 				<div id="footer-text">
-				Last update: 20170227
+				Last update: 20170428
 				</div>
 			</div>
 		</div>
