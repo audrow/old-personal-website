@@ -5,9 +5,6 @@ table#tlayout {
     border-collapse: separate;
     background: white;
 }
-html {
-  background-color: #2a3b58; 
-}
 
 body { 
   font-family: "Muli","Helvetica Neue",Helvetica,Arial,sans-serif;;
@@ -23,39 +20,6 @@ body {
   padding-top: 10px;
   padding-bottom: 30px;
   max-width: 960px;
-}
-
-#layout-menu {
-	background: #f6f6f6;
-	border: 1px solid #dddddd;
-	padding-top: 0.5em;
-	padding-left: 8px;
-	padding-right: 8px;
-	font-size: 1.0em;
-	width: auto;
-	white-space: nowrap;
-    text-align: left;
-    vertical-align: top;
-}
-
-#layout-menu td {
-	background: #f4f4f4;
-    vertical-align: top;
-}
-
-#layout-content {
-	padding-top: 0.0em;
-	padding-left: 1.0em;
-	padding-right: 1.0em;
-    border: none;
-    background: white;
-    text-align: left;
-    vertical-align: top;
-}
-
-#layout-menu a {
-	line-height: 1.5em;
-	margin-left: 0.5em;
 }
 
 tt {
@@ -340,28 +304,10 @@ tr.heading {
     border-bottom: 2px solid black;
 }
 
-img {
-    border: none;
-}
-
 table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
-
-hr {
-    display: block;
-    -webkit-margin-before: 0.5em;
-    -webkit-margin-after: 0.5em;
-    -webkit-margin-start: auto;
-    -webkit-margin-end: auto;
-    border-style: inset;
-    border-width: 1px;
-}
-
-div.codeblock {
-    font-family: Consolas, "Courier New", Courier, monospace;
-    font-size: 1em;
-    padding: 8px;
-    background-color: #eff0f1;    
+#headshot {
+	border-radius: 50%;
 }
